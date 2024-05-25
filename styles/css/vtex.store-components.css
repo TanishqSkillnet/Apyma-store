@@ -119,3 +119,9 @@
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
+
+.sizeDesktop{
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  margin-left: 3rem !important;
+}

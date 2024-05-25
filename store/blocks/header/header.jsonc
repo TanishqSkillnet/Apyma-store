@@ -55,8 +55,11 @@
       "fullWidth": true
     },
     "children": [
+      "burger_menu",
       "flex-layout.col#logo-desktop",
-      "search-bar",
+      "custom_location",
+      "custom_search_bar",
+      "custom_address",
       "locale-switcher",
       "login",
       "minicart.v2"
@@ -83,8 +86,8 @@
       "title": "Logo",
       "href": "/",
       "url": "https://skillnet.vteximg.com.br/arquivos/autexImage.png",
-      "width": "180",
-      "height": "20"
+      "width": "100",
+      "height": "18"
     }
   },
   "header-layout.mobile": {
