@@ -4,9 +4,9 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-01-desktop",
+      "flex-layout.row#footer-02-desktop",
+      "flex-layout.row#footer-03-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
@@ -70,6 +70,54 @@
     "props": {
       "text": "All stock and product photos are from photos.icons8.com",
       "blockClass": "footer"
+    }
+  },
+
+  "flex-layout.row#footer-01-desktop": {
+    "children": ["logo#footer"],
+    "props": {
+      "horizontalAlign": "start",
+      "blockClass": "logoStyle"
+    }
+  },
+  "logo#footer": {
+    "props": {
+      "src": "",
+      "alt": "Store Logo",
+      "blockClass": "logoStyle"
+    }
+  },
+  "flex-layout.row#footer-02-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#autex",
+      "vtex.menu@2.x:menu#ayuda",
+      "vtex.menu@2.x:menu#contactanos",
+      "vtex.menu@2.x:menu#descargables"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "rich-text#footer-text": {
+    "props": {
+      "text": "Derechos Reservados AUTEX 2023.",
+      "blockClass": "footer"
+    }
+  },
+
+  "flex-layout.row#footer-03-desktop": {
+    "children": [
+      "rich-text#footer-text",
+      "accepted-payment-methods",
+      "social-networks",
+      "footer-spacer"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
     }
   },
 

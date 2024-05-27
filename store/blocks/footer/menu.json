@@ -271,6 +271,312 @@
     ]
   },
 
+  "vtex.menu@2.x:menu#autex": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#autex0",
+      "menu-item#autex1",
+      "menu-item#autex2",
+      "menu-item#autex3",
+      "menu-item#autex4"
+    ]
+  },
+  "menu-item#autex0": {
+    "props": {
+      "id": "menu-item-autex-0",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acerca de Autex",
+        "text": "Acerca de Autex",
+        "blockClass": "bold-text"
+      }
+    }
+  },
+  "menu-item#autex1": {
+    "props": {
+      "id": "menu-item-autex-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#autex2": {
+    "props": {
+      "id": "menu-item-autex-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "¿Quiénes somos?",
+        "text": "¿Quiénes somos?"
+      }
+    }
+  },
+  "menu-item#autex3": {
+    "props": {
+      "id": "menu-item-autex-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Bolsa de trabajo",
+        "text": "Bolsa de trabajo"
+      }
+    }
+  },
+  "menu-item#autex4": {
+    "props": {
+      "id": "menu-item-autex-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Aviso de privacidad",
+        "text": "Aviso de privacidad"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#ayuda": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#ayuda0",
+      "menu-item#ayuda1",
+      "menu-item#ayuda2",
+      "menu-item#ayuda3",
+      "menu-item#ayuda4"
+    ]
+  },
+  "menu-item#ayuda0": {
+    "props": {
+      "id": "menu-item-ayuda-0",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Ayuda",
+        "text": "Ayuda",
+        "blockClass": "bold-text"
+      }
+    }
+  },
+  "menu-item#ayuda1": {
+    "props": {
+      "id": "menu-item-ayuda-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#ayuda2": {
+    "props": {
+      "id": "menu-item-ayuda-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Facturación",
+        "text": "Facturación"
+      }
+    }
+  },
+  "menu-item#ayuda3": {
+    "props": {
+      "id": "menu-item-ayuda-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Garantías y devoluciones",
+        "text": "Garantías y devoluciones"
+      }
+    }
+  },
+  "menu-item#ayuda4": {
+    "props": {
+      "id": "menu-item-ayuda-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "¿Cómo comprar en Autex?",
+        "text": "¿Cómo comprar en Autex?"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#contactanos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#contactanos0",
+      "menu-item#contactanos1",
+      "menu-item#contactanos2",
+      "menu-item#contactanos3",
+      "menu-item#contactanos4"
+    ]
+  },
+  "menu-item#contactanos0": {
+    "props": {
+      "id": "menu-item-contactanos-0",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos",
+        "blockClass": "bold-text"
+      }
+    }
+  },
+  "menu-item#contactanos1": {
+    "props": {
+      "id": "menu-item-contactanos-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "33 3208 4440",
+        "text": "33 3208 4440"
+      }
+    }
+  },
+  "menu-item#contactanos2": {
+    "props": {
+      "id": "menu-item-contactanos-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "33 2835 9694",
+        "text": "33 2835 9694"
+      }
+    }
+  },
+  "menu-item#contactanos3": {
+    "props": {
+      "id": "menu-item-contactanos-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "contacto@autex.com.mx",
+        "text": "contacto@autex.com.mx"
+      }
+    }
+  },
+  "menu-item#contactanos4": {
+    "props": {
+      "id": "menu-item-contactanos-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Localiza tu tienda",
+        "text": "Localiza tu tienda"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#descargables": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#descargables0",
+      "menu-item#descargables1"
+    ]
+  },
+
+  "menu-item#descargables0": {
+    "props": {
+      "id": "menu-item-descargables-0",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Descargables",
+        "text": "Descargables"
+      }
+    }
+  },
+  "menu-item#descargables1": {
+    "props": {
+      "id": "menu-item-descargables-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Revista mensual",
+        "text": "Revista mensual"
+      }
+    }
+  },
   "menu-item#sale-mobile": {
     "props": {
       "itemProps": {
