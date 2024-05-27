@@ -3,7 +3,6 @@
 }
 
 .sliderLayoutContainer--carousel {
-  background-color: #F0F0F0;
   min-height: 450px;
 }
 
@@ -28,4 +27,8 @@
   padding-left: .5rem;
   padding-right: .5rem;
   min-height: 550px;
+}
+
+.sliderTrackContainer--sectioCrousel{
+  padding: 12px;
 }
