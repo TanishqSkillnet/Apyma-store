@@ -6,6 +6,14 @@
   text-decoration: underline;
 }
 
+.container {
+  padding: 0 !important;
+}
+
+.searchBarInnerContainer--customized-search-bar {
+  width: 41rem;
+}
+
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
@@ -70,7 +78,7 @@
     padding: 140px;
   }
   .label {
-     font-size: 40px;
+    font-size: 40px;
   }
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
@@ -122,3 +130,8 @@
 }
 
 
+.sizeDesktop{
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  margin-left: 3rem !important;
+}
