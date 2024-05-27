@@ -88,3 +88,9 @@
     line-height: 1.3em;
   }
 }
+
+.container.container--shelfTitle{
+  font-size: x-large;
+  color: black;
+  padding: 12px;
+}

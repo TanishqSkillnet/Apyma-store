@@ -32,3 +32,10 @@
 .sliderTrackContainer--sectioCrousel{
   padding: 12px;
 }
+
+.slideChildrenContainer.slideChildrenContainer--featuredProductCrousel{
+  width: 70%;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}

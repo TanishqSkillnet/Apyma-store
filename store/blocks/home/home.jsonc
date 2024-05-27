@@ -1,21 +1,17 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
+      "apysma_vehicle",
       "slider-layout#text-test",
+      "flex-layout.row#deals",
       "flex-layout.row#minibanners",
       "rich-text#shelf-title#2",
       "flex-layout.row#collection",
       "__fold__",
-      "apysma_vehicle",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      // "rich-text#shelf-title",
+      // "flex-layout.row#shelf",
       "newsletter"
     ]
   },
@@ -189,22 +185,38 @@
   "product-summary.shelf#collections":{
     "children":[
       "product-summary-image",
-      "product-summary-name",
-      "product-summary-price"
+      "product-selling-price#summaryfeatured",
+      "product-summary-name"
     ],
     "props":{
       "blockClass":"featuredProducts"
     }
   },
+  "product-summary-name":{
+    "props":{
+      "blockClass":"featuredProductsName"
+    }
+  },
+  "product-summary-image":{
+    "props":{
+      "height":170
+    }
+  },
+  "product-selling-price#summaryfeatured":{
+    "props":{
+      "blockClass":"featuredProductsPrice"
+    }
+  },
   "slider-layout#shelf": {
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 4,
         "tablet": 2,
         "phone": 2
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly"
+      "showPaginationDots":false,
+      "blockClass":"featuredProductCrousel"
     }
   },
 
