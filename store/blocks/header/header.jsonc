@@ -41,7 +41,7 @@
   },
   "sticky-layout#4-desktop": {
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": ""
     },
     "children": ["flex-layout.row#4-desktop"]
   },
@@ -64,6 +64,11 @@
       "login",
       "minicart.v2"
     ]
+  },
+  "login":{
+    "props":{
+      "blockClass":"login-button-ui"
+    }
   },
   "search-bar":{
     "props":{
