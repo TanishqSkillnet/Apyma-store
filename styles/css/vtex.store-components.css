@@ -111,3 +111,14 @@
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
+
+.infoCardContainer--info-card-minibanners{
+  background: #2055C1;
+  color: white;
+}
+.infoCardSubhead.infoCardSubhead--info-card-minibanners{
+  color: white;
+  font-size: small;
+}
+
+
