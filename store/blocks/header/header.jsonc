@@ -60,8 +60,9 @@
       "custom_location",
       "custom_search_bar",
       "custom_address",
-      "locale-switcher",
       "login",
+      "custom_notification",
+      // "custom_minicart",
       "minicart.v2"
     ]
   },
