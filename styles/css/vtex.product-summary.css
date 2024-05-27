@@ -40,3 +40,13 @@
 .image {
   border-radius: 0.25rem;
 }
+
+.priceContainer{
+  display: block;
+  text-align: start;
+}
+.productBrand--featuredProductsName{
+  font-size: small;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
