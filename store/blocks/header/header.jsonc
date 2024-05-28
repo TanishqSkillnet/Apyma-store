@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#1-desktop",
       "flex-layout.row#3-desktop",
-      "sticky-layout#4-desktop"
+      "sticky-layout#4-desktop",
+      "flex-layout.row#otherDetails"
     ]
   },
 
@@ -59,12 +60,18 @@
       "flex-layout.col#logo-desktop",
       "custom_location",
       "custom_search_bar",
+      // "search-bar",
       "custom_address",
       "login",
-      "custom_notification",
+      // "custom_notification",
       // "custom_minicart",
       "minicart.v2"
     ]
+  },
+  "custom_search_bar#modified":{
+    "props":{
+      "blockClass":"search-bar-customized"
+    }
   },
   "login":{
     "props":{
@@ -124,6 +131,56 @@
       "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
       "width": "77.5",
       "height": "27.5"
+    }
+  },
+
+  "flex-layout.row#otherDetails":{
+    "children": ["link#Inicio","link#Catálogo","link#Historial","link#Mis","link#Promociones","link#Ofertas"],
+    "props": {
+      "href":"/",
+      "blockClass":"header_otherdetails"
+    }
+  },
+  "link#Inicio":{
+    "props":{
+      "link":"/",
+      "label":"Inicio",
+      "blockClass": "otherDetails"
+    }
+  },
+  "link#Catálogo":{
+    "props":{
+      "link":"/",
+      "label":"Catálogo",
+      "blockClass": "otherDetails"
+    }
+  },
+  "link#Historial":{
+    "props":{
+      "link":"/",
+      "label": "Historial de pedidos",
+      "blockClass": "otherDetails"
+    }
+  },
+  "link#Mis":{
+    "props":{
+      "link":"/",
+      "label": "Mis listas",
+      "blockClass": "otherDetails"
+    }
+  },
+  "link#Promociones":{
+    "props":{
+      "link":"/",
+      "label": "Promociones",
+      "blockClass": "otherDetails"
+    }
+  },
+  "link#Ofertas":{
+    "props":{
+      "link":"/",
+      "label": "Ofertas",
+      "blockClass": "otherDetails"
     }
   }
 }

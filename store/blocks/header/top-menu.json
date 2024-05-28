@@ -1,12 +1,12 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#shop"
     ]
   },
   "menu-item#shop": {
     "props": {
+      "blockClass":"top-header-menu",
       "id": "menu-item-shop",
       "type": "custom",
       "iconId": null,
@@ -16,14 +16,87 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Shop",
-        "text": "Shop"
+        "text": "ENVÍO GRATIS A TODO MÉXICO  |  COMPRAS MAYORES A $549MXN"
       }
     }
   },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
-      "menu-item#vtex-website"
+      "image#ayodaLogo",
+      "menu-item#ayoda",
+      "image#callLogo",
+      "menu-item#call",
+      "image#chatLogo",
+      "menu-item#text"
     ]
+  },
+
+  "image#ayodaLogo":{
+    "props": {
+      "src": "",
+      "alt": "Store Logo",
+      "blockClass": "top-menu-logo"
+    }
+  },
+  "image#callLogo":{
+    "props": {
+      "src": "",
+      "alt": "Store Logo",
+      "blockClass": "top-menu-logo-call"
+    }
+  },
+  "image#chatLogo":{
+    "props": {
+      "src": "",
+      "alt": "Store Logo",
+      "blockClass": "top-menu-logo-whatsapp"
+    }
+  },
+
+  "menu-item#ayoda":{
+    "props": {
+      "id": "menu-item-ayoda",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ayoda",
+        "text": "AYODA"
+      }
+    }
+  },
+  "menu-item#call":{
+    "props": {
+      "id": "menu-item-call",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "call",
+        "text": "33 3205 4440"
+      }
+    }
+  },
+  "menu-item#text":{
+    "props": {
+      "id": "menu-item-text",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "text",
+        "text": "33 2835 9694"
+      }
+    }
   },
   "menu-item#vtex-website": {
     "props": {
