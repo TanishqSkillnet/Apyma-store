@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#1-desktop",
       "flex-layout.row#3-desktop",
-      "sticky-layout#4-desktop"
+      "sticky-layout#4-desktop",
+      "flex-layout.row#otherDetails"
     ]
   },
 
@@ -59,12 +60,18 @@
       "flex-layout.col#logo-desktop",
       "custom_location",
       "custom_search_bar",
+      // "search-bar",
       "custom_address",
       "login",
-      "custom_notification",
+      // "custom_notification",
       // "custom_minicart",
       "minicart.v2"
     ]
+  },
+  "custom_search_bar#modified":{
+    "props":{
+      "blockClass":"search-bar-customized"
+    }
   },
   "login":{
     "props":{
@@ -124,6 +131,73 @@
       "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
       "width": "77.5",
       "height": "27.5"
+    }
+  },
+
+  "flex-layout.row#otherDetails":{
+    "children": ["rich-text#Inicio","rich-text#Catálogo","rich-text#Historial","rich-text#Mis","rich-text#Promociones","rich-text#Ofertas"],
+    "props": {
+      "blockClass":"header_otherdetails"
+    }
+  },
+  "rich-text#Inicio":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Inicio",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "otherDetails"
+    }
+  },
+  "rich-text#Catálogo":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Catálogo",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "otherDetails"
+    }
+  },
+  "rich-text#Historial":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Historial de pedidos",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "otherDetails"
+    }
+  },
+  "rich-text#Mis":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Mis listas",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "otherDetails"
+    }
+  },
+  "rich-text#Promociones":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Promociones",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "otherDetails"
+    }
+  },
+  "rich-text#Ofertas":{
+    "props":{
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Ofertas",
+      "textColor": "black",
+      "font": "t-heading-5",
+      "blockClass": "otherDetails"
     }
   }
 }

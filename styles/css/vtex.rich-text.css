@@ -94,3 +94,8 @@
   color: black;
   padding: 12px;
 }
+
+.paragraph--otherDetails{
+  font-size: 1rem !important;
+  margin-top: -0.2rem;
+}
