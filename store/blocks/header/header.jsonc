@@ -135,68 +135,51 @@
   },
 
   "flex-layout.row#otherDetails":{
-    "children": ["rich-text#Inicio","rich-text#Catálogo","rich-text#Historial","rich-text#Mis","rich-text#Promociones","rich-text#Ofertas"],
+    "children": ["link#Inicio","link#Catálogo","link#Historial","link#Mis","link#Promociones","link#Ofertas"],
     "props": {
+      "href":"/",
       "blockClass":"header_otherdetails"
     }
   },
-  "rich-text#Inicio":{
+  "link#Inicio":{
     "props":{
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Inicio",
-      "textColor": "black",
-      "font": "t-heading-5",
+      "link":"/",
+      "label":"Inicio",
       "blockClass": "otherDetails"
     }
   },
-  "rich-text#Catálogo":{
+  "link#Catálogo":{
     "props":{
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Catálogo",
-      "textColor": "black",
-      "font": "t-heading-5",
+      "link":"/",
+      "label":"Catálogo",
       "blockClass": "otherDetails"
     }
   },
-  "rich-text#Historial":{
+  "link#Historial":{
     "props":{
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Historial de pedidos",
-      "textColor": "black",
-      "font": "t-heading-5",
+      "link":"/",
+      "label": "Historial de pedidos",
       "blockClass": "otherDetails"
     }
   },
-  "rich-text#Mis":{
+  "link#Mis":{
     "props":{
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Mis listas",
-      "textColor": "black",
-      "font": "t-heading-5",
+      "link":"/",
+      "label": "Mis listas",
       "blockClass": "otherDetails"
     }
   },
-  "rich-text#Promociones":{
+  "link#Promociones":{
     "props":{
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Promociones",
-      "textColor": "black",
-      "font": "t-heading-5",
+      "link":"/",
+      "label": "Promociones",
       "blockClass": "otherDetails"
     }
   },
-  "rich-text#Ofertas":{
+  "link#Ofertas":{
     "props":{
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Ofertas",
-      "textColor": "black",
-      "font": "t-heading-5",
+      "link":"/",
+      "label": "Ofertas",
       "blockClass": "otherDetails"
     }
   }
