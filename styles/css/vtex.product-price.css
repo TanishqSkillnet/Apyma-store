@@ -91,7 +91,7 @@
   letter-spacing: 1px;
 }
 
-.currencyDecimal--featuredProductsPrice{
+.currencyDecimal--featuredProductsPrice, .currencyGroup--featuredProductsPrice{
   display: none;
 }
 
@@ -99,4 +99,32 @@
   font-weight: 100;
   font-size: small;
   margin-right: 1px;
+}
+
+/* ss  */
+.currencyInteger--plpPrice{
+  font-weight: 100;
+  font-size: large;
+  letter-spacing: 1px;
+  color: #1226AA;
+}
+
+.currencyFraction--plpPrice{
+  font-weight: 100;
+  font-size: small;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  color: #1226AA;
+
+}
+
+.currencyDecimal--plpPrice, .currencyGroup--plpPrice{
+  display: none;
+}
+
+.currencyCode--plpPrice{
+  font-weight: 100;
+  font-size: small;
+  margin-right: 1px;
+  color: #1226AA;
 }

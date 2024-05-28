@@ -94,3 +94,8 @@
   color: black;
   padding: 12px;
 }
+
+.paragraph--summaryText{
+  font-size: small;
+  letter-spacing: 1px;
+}

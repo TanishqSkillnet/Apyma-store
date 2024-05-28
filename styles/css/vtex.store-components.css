@@ -137,3 +137,9 @@
   padding-right: 0.5rem !important;
   margin-left: 3rem !important;
 }
+
+.imageElement--plpBanner{
+  height: 50%;
+  width: 90%;
+  margin: auto;
+}

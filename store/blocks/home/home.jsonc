@@ -69,7 +69,7 @@
       "images": [
         {
           "loading": "eager",
-          "image": "https://s3-alpha-sig.figma.com/img/b6fd/6683/2b56fb72710398a2f4631274178faa37?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b4lTp-DVbbN~VweD0zkp5eOOUBTtLDc1KTrcove7pPcUnMtMswDcbiOhTKhEs5K2dFMNgh5gUzcjUT7bG6xvEGsd1We5W3vnzhssSB8a4bZH56WFvV~bWnqnbaxL8BDEWYTyaoeCx8uwchGKKKUjBxwkkwx8RwzOjkMF6WqOUYLffjMVtguy~djbQdc8QZMV4HOwcim6uJpAJjcT6jusmsrGO3WTGKtYV8Rz5q8~iV-55vCBWnzIDmxCz9tYl4~8OtxdEQCsldW4VRFHtgvoLLrOL89sXX2mkLLYFP9tZr5cyZ~e3aXF9piM6X~SJmK06VLR908ZC402UoDP5i6ing__",
+          "image": "",
           "description": "something something",
           "width":"96%"
         }
@@ -84,7 +84,7 @@
       "images": [
         {
           "loading": "eager",
-          "image": "https://s3-alpha-sig.figma.com/img/12e3/c5a3/5bebb04602edd3c8dc5ac3430323f85c?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JTJunWe4U2p1Uy-CUBPouAOOycoyF48ly0NbJHhU5JXjOqUMDAdjXyoPc1YOKb8LLxaDudpRNnSlYnFRUf7ljFmc1SKivpMNvkbqdf8tHfLRWSPVXRAdH1L-EtQmZfONPzLUwRrM9I5wSP75BpjhNbqArs~2feIu-D8UD5K4uGeUuhuuIObylOssyp3K3WpWV~A2diWYEkJPT~PPrqpJlgp0mxNIVNydVG2zEmtmcQKmN-ZUFIZrlAwAbnm3z8wMzrT5oyj51yYpyNrN6xywVJFUuHEPXzkSosr~z319GN~RK~DNJwVYPn6~ZqHHBYzoorsjXx9AdSxJ4aTeUDSH5A__",
+          "image": "",
           "description": "something something",
           "width":"96%"
         }
@@ -99,7 +99,7 @@
       "images": [
         {
           "loading": "eager",
-          "image": "https://s3-alpha-sig.figma.com/img/b6fd/6683/2b56fb72710398a2f4631274178faa37?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b4lTp-DVbbN~VweD0zkp5eOOUBTtLDc1KTrcove7pPcUnMtMswDcbiOhTKhEs5K2dFMNgh5gUzcjUT7bG6xvEGsd1We5W3vnzhssSB8a4bZH56WFvV~bWnqnbaxL8BDEWYTyaoeCx8uwchGKKKUjBxwkkwx8RwzOjkMF6WqOUYLffjMVtguy~djbQdc8QZMV4HOwcim6uJpAJjcT6jusmsrGO3WTGKtYV8Rz5q8~iV-55vCBWnzIDmxCz9tYl4~8OtxdEQCsldW4VRFHtgvoLLrOL89sXX2mkLLYFP9tZr5cyZ~e3aXF9piM6X~SJmK06VLR908ZC402UoDP5i6ing__",
+          "image": "",
           "description": "something something",
           "width":"96%"
         }
@@ -125,7 +125,7 @@
       "id": "info-card-example",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://s3-alpha-sig.figma.com/img/c4af/b785/274fa3a6fffe328240b5b85670a702cc?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DCJ3KVUf4Pq2IY405pKPUdx7zG-AlmlGBH33A2Ivqt4cSs4fYSsuxuUjbmAs65soQAv9dt7oDbIHei~4D9Wa-MPdJvHmgDglUzl969AekrgS0J5LDIxzBtr3ZHIFjbqmbpFf5BzznVISGvLiucGCSW1SqfdGRrahNAwPjvJpQsU49CCWm9yHvJTeFSylEcEKlngAfNmf9etpi~Ylt86eBO4IXcUpka1WBCaLHtIPFw8mSFqBkUNW1fLw5VqQAIqho8I5ttOEg-ruKnH60W~Tg5RAsrUEsUu9eOv6hzcTPZ0J2v3cQ4u8gIWEkgG1fgYYfeIGk081Azs1dAN0qvRhHw__",
+      "imageUrl": "",
       "subhead": "Pide en línea y recoge tu pedido en tienda",
       "callToActionText": "Haz tu pedido",
       "callToActionUrl": "/sale/d",
@@ -138,7 +138,7 @@
       "id": "info-card-example",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://s3-alpha-sig.figma.com/img/16c7/5494/03f05b3312d741538b28554c57e0ddc4?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pjZHPognN-Qxui92PpxDU8xn8I0PuxNiGpInKnPt5j9cJDNdkpGAX6V3QpFiZ~1~d6aH0Ov1QPu-BPXeZ6k3XjoQQxAi8U9-Wyj~aPznHcVrVqPTcOxbQCNgm5u6kobJgtZmwZxFvVzDKcU2Kxo-UBK6Eo0TvRLcWIaqwSpG-2VG2RPn9XOMj4bfYyzGlfu5BZcVA-vWjTq7zY3kiNA-43Nu8u1N94iscw-eNSTTVtly50114-f~0~ZGe5rZQyeCpz~c-p5MXWkwTnqLnTaL9dlGYagJnf6QaToVXOfXAjaqwbfjLXIuuyIoSEEFBkkXSlrP9EFm7y~E-HSOHQv3sg__",
+      "imageUrl": "",
       "subhead": "¿Necesitas un crédito para hacercrecer tu taller?",
       "callToActionText": "Solicitar crédito",
       "callToActionUrl": "/sale/d",
@@ -151,7 +151,7 @@
       "id": "info-card-example",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://s3-alpha-sig.figma.com/img/edbb/5116/e4f901dc09b4eeb2a87c21307a56fced?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BYPGVy77SDY5FoFHkJDrLZIjDozJOqGU7xdZisbq1n5Bs3SZ5-zs83yj7ByGCkWlfvDHLMMrYfPxYMTlUehwpjf-sUo3JqXsnRdR7llNhyJaiKSZ2oiW15u1svCtmRLF63cBIC52x9UeAjdiH3GrTyhTOedO7FkIxiVlO4BBomCeeOM1ilJJskhBfgERy1bLuyejNf41UjIp5ZpVXqWnS716Vpkc~57KI6kU14B-gBUPj8UsovvmN55JdeZkc75mJi1cwuOLbPJ4CTowzeRZVaxw6ZkuSWOczV1TI6k6BC4LdSDtN2bhOd-iu93JHUiAKpf50UWtzdled4vcOPi-4A__",
+      "imageUrl": "",
       "subhead": "Descargar nuestra revista de promociones",
       "callToActionText": "Descargar revista",
       "callToActionUrl": "/sale/d",
