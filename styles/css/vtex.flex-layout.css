@@ -7,6 +7,15 @@
   padding: 0 !important;
 }
 
+@media screen and (width > 1280px) {
+  .flexRowContent--main-header {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-between;
+  }
+}
+
+
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {

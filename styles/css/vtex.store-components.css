@@ -156,3 +156,26 @@
   width:36px !important;
   height:30px !important
 }
+
+@media screen and (width > 1800){
+  .logoContainer {
+    position: relative;
+    left: -6rem;
+  }
+}
+
+
+@media screen and (width > 1400px) and (width < 1790px){
+  .logoContainer {
+    position: relative;
+    left: -3rem;
+  }
+}
+
+@media screen and (width > 2200px){
+  .logoContainer {
+    left: -7rem;
+    position: relative;
+  }
+}
+
