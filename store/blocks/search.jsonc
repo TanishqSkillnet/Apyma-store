@@ -343,7 +343,6 @@
     }
   },
   "rich-text#summaryText":{
-    "children":["image#rightIcon"],
     "props":{
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
