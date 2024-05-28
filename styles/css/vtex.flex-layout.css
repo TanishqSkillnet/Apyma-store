@@ -108,6 +108,11 @@
   background: #f5f5f5;
 }
 
+.flexRowContent--summaryText{
+  height: 25px;
+  border: 1px solid #9AA0A6;
+  border-radius: 3px;
+}
 .flexRowContent--menu-link{
   background-color: #0F3E99;
 }

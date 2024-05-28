@@ -146,6 +146,11 @@
   margin-left: 3rem !important;
 }
 
+.imageElement--plpBanner{
+  height: 50%;
+  width: 90%;
+  margin: auto;
+}
 .imageElement--top-menu-logo{
   margin-top: 0.45rem !important;
   width:36px !important;
