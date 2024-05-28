@@ -150,7 +150,7 @@
   },
   "link#Catálogo":{
     "props":{
-      "link":"/men-s",
+      "href":"/men-s",
       "label":"Catálogo",
       "blockClass": "otherDetails"
     }
