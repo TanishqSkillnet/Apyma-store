@@ -2,8 +2,10 @@
   "add-to-cart-button": {
     "props": {
       "addToCartFeedback": "customEvent",
-      "customPixelEventId": "add-to-cart-button"
+      "customPixelEventId": "add-to-cart-button",
+      "blockClass": "add-to-cart-button-style"
     }
+
   },
 
   "minicart.v2": {
