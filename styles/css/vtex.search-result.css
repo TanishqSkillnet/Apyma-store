@@ -131,3 +131,36 @@
   border-radius: 0.2rem;
   margin-bottom: 0.3rem;
 }
+
+.filterAvailable{
+  padding-left: 1rem;
+  padding-bottom: 14px;
+}
+
+.filterContent{
+  padding-left: 1rem;
+}
+
+.filter__container{
+  margin-bottom: 0px !important;
+  border-color: #e9eff5;
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+
+.filters--layout{
+  border: 1px solid #e9eff5 ;
+}
+
+.filterTemplateOverflow{
+  width: 12rem;
+  margin-left: 1rem;
+}
+
+.gallery--gridSummaryLayout{
+  gap:1rem !important;
+}
+
+.galleryItem--gridSummaryLayout{
+  max-width: 23% !important;
+}

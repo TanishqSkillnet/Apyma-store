@@ -125,3 +125,8 @@
   background-color: #0F3E99;
 }
 
+.flexColChild--filterCol{
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+  border-right: 0px !important;
+}
