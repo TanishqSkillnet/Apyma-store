@@ -88,3 +88,18 @@
     line-height: 1.3em;
   }
 }
+
+.container.container--shelfTitle{
+  font-size: x-large;
+  color: black;
+  padding: 12px;
+}
+
+.paragraph--summaryText{
+  font-size: small;
+  letter-spacing: 1px;
+}
+.paragraph--otherDetails{
+  font-size: 1rem !important;
+  margin-top: -0.2rem;
+}

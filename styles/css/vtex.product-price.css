@@ -77,3 +77,54 @@
   color: #FFFFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
+
+.currencyInteger--featuredProductsPrice{
+  font-weight: 100;
+  font-size: large;
+  letter-spacing: 1px;
+}
+
+.currencyFraction--featuredProductsPrice{
+  font-weight: 100;
+  font-size: small;
+  vertical-align: middle;
+  letter-spacing: 1px;
+}
+
+.currencyDecimal--featuredProductsPrice, .currencyGroup--featuredProductsPrice{
+  display: none;
+}
+
+.currencyCode--featuredProductsPrice{
+  font-weight: 100;
+  font-size: small;
+  margin-right: 1px;
+}
+
+/* ss  */
+.currencyInteger--plpPrice{
+  font-weight: 100;
+  font-size: large;
+  letter-spacing: 1px;
+  color: #1226AA;
+}
+
+.currencyFraction--plpPrice{
+  font-weight: 100;
+  font-size: small;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  color: #1226AA;
+
+}
+
+.currencyDecimal--plpPrice, .currencyGroup--plpPrice{
+  display: none;
+}
+
+.currencyCode--plpPrice{
+  font-weight: 100;
+  font-size: small;
+  margin-right: 1px;
+  color: #1226AA;
+}

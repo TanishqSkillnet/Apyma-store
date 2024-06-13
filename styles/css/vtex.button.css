@@ -1,0 +1,8 @@
+.vtex-login-2-x-container .relative .vtex-button .vtex-button__label {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.b--action-primary{
+background:'black' !important;
+}

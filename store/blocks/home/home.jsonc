@@ -1,17 +1,17 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",      
-      "__fold__",
       "apysma_vehicle",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "slider-layout#text-test",
+      "flex-layout.row#deals",
+      "flex-layout.row#minibanners",
+      "rich-text#shelf-title#2",
+      "flex-layout.row#collection",
+      "__fold__",
+      // "rich-text#shelf-title",
+      // "flex-layout.row#shelf",
       "newsletter"
     ]
   },
@@ -36,13 +36,187 @@
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
+        "desktop": 2,
         "tablet": 1,
         "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
+    }
+  },
+
+  // Banner Layout
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "sectioCrousel",
+      "centerModeSlidesGap":"to-the-left"
+    },
+    "children": ["list-context.image-list#Banner1", "list-context.image-list#Banner2", "list-context.image-list#Banner3"]
+  },
+  "list-context.image-list#Banner1": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "",
+          "description": "something something",
+          "width":"96%"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#Banner2": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "",
+          "description": "something something",
+          "width":"96%"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#Banner3": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "loading": "eager",
+          "image": "",
+          "description": "something something",
+          "width":"96%"
+        }
+      ]
+    }
+  },
+
+  // Mini Banner Layout
+  "flex-layout.row#minibanners":{
+    "children":["info-card#1","info-card#2","info-card#3"],
+    "props":{
+      "blockClass":"miniBanners",
+      "horizontalAlign":"center",
+      "marginTop":5,
+      "colGap":5,
+      "colSizing":"equal",
+      "fullWidth":false,
+      "preventVerticalStretch":false
+    }
+  },
+  "info-card#1": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "",
+      "subhead": "Pide en línea y recoge tu pedido en tienda",
+      "callToActionText": "Haz tu pedido",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-minibanners",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#2": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "",
+      "subhead": "¿Necesitas un crédito para hacercrecer tu taller?",
+      "callToActionText": "Solicitar crédito",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-minibanners",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#3": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "",
+      "subhead": "Descargar nuestra revista de promociones",
+      "callToActionText": "Descargar revista",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-minibanners",
+      "textAlignment": "left"
+    }
+  },
+
+  // Product Crousel Layout
+  "rich-text#shelf-title#2": {
+    "props": {
+      "text": "Productos destacados",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#collection":{
+    "children":["list-context.product-list#collections"],
+    "props":{
+      "blockClass":"search-result-collections"
+    }
+  },
+  "list-context.product-list#collections":{
+    "blocks": ["product-summary.shelf#collections"],
+    "children": ["slider-layout#shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "159",
+      "paginationDotsVisibility": "desktopOnly"
+    }
+  },
+  "product-summary.shelf#collections":{
+    "children":[
+      "product-summary-image",
+      "product-selling-price#summaryfeatured",
+      "product-summary-name"
+    ],
+    "props":{
+      "blockClass":"featuredProducts"
+    }
+  },
+  "product-summary-name":{
+    "props":{
+      "blockClass":"featuredProductsName"
+    }
+  },
+  "product-summary-image":{
+    "props":{
+      "height":170
+    }
+  },
+  "product-selling-price#summaryfeatured":{
+    "props":{
+      "blockClass":"featuredProductsPrice"
+    }
+  },
+  "slider-layout#shelf": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showPaginationDots":false,
+      "blockClass":"featuredProductCrousel"
     }
   },
 

@@ -1,0 +1,86 @@
+@media (width > 1800px) and (width < 2200px) {
+  .autoCompleteOuterContainer{
+    width: 32rem;
+  }
+
+  .search_bar{
+    position: relative;
+    left: -1rem;
+    width: 50.1rem
+  }
+
+  .burger{
+    margin-left:1rem
+  }
+
+  .buscado_para{
+    left: -4.5rem;
+    position: relative;
+  }
+
+  .buscado_para_locate{
+    left: 2.5rem;
+    position: relative;
+  }
+
+}
+
+
+@media (width > 1400px) and ( width < 1790px) {
+  .autoCompleteOuterContainer{
+    width: 17.5rem;
+  }
+
+  .search_bar{
+    position: relative;
+    left: -1rem;
+    width: 30rem
+  }
+
+  .burger{
+    margin-left:1rem
+  }
+
+  .buscado_para{
+    left: -3.5rem;
+    position: relative;
+  }
+
+  .buscado_para_locate{
+    left: 2.5rem;
+    position: relative;
+  }
+
+}
+
+@media (width > 2200px) {
+  .autoCompleteOuterContainer{
+    width: 41rem;
+  }
+
+  .search_bar{
+    position: relative;
+    left: -1rem;
+    width: 59.1rem;
+  }
+
+  .burger{
+    margin-left:1rem
+  }
+
+  .buscado_para{
+    left: -7.5rem;
+    position: relative;
+  }
+
+  .buscado_para_locate{
+    left: 5.5rem;
+    position: relative;
+  }
+
+  .searchBar_container{
+    left: -4.5rem;
+    position: relative;
+  }
+
+}

@@ -1,9 +1,25 @@
+.searchBarInnerContainer--customized-search-bar{
+  width: 21rem;
+  padding-left: 1rem;
+  padding-right:1rem;
+  margin-top: 0.9rem;
+}
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
+}
+
+.container {
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+
+.searchBarContainer{
+  padding: 0 !important;
+  width: 17.5rem !important;
 }
 
 .infoCardContainer--info-card-home {
@@ -64,13 +80,15 @@
 .skuSelectorContainer {
   margin: 1rem 0;
 }
-
+.logoImage--logoStyle{
+  padding-top: 20px;
+}
 @media only screen and (min-width: 640px) {
   .newsletter .container {
     padding: 140px;
   }
   .label {
-     font-size: 40px;
+    font-size: 40px;
   }
   .infoCardContainer--info-card-home .infoCardTextContainer {
     width: 30%;
@@ -111,3 +129,53 @@
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
+
+.infoCardContainer--info-card-minibanners{
+  background: #2055C1;
+  color: white;
+}
+.infoCardSubhead.infoCardSubhead--info-card-minibanners{
+  color: white;
+  font-size: small;
+}
+
+
+.sizeDesktop{
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  margin-left: 3rem !important;
+}
+
+.imageElement--plpBanner{
+  height: 50%;
+  width: 90%;
+  margin: auto;
+}
+.imageElement--top-menu-logo{
+  margin-top: 0.45rem !important;
+  width:36px !important;
+  height:30px !important
+}
+
+@media screen and (width > 1800){
+  .logoContainer {
+    position: relative;
+    left: -6rem;
+  }
+}
+
+
+@media screen and (width > 1400px) and (width < 1790px){
+  .logoContainer {
+    position: relative;
+    left: -3rem;
+  }
+}
+
+@media screen and (width > 2200px){
+  .logoContainer {
+    left: -7rem;
+    position: relative;
+  }
+}
+
