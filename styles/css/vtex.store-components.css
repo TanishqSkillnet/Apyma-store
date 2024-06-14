@@ -19,7 +19,7 @@
 
 .searchBarContainer{
   padding: 0 !important;
-  width: 17.5rem !important;
+  width: 100%;
 }
 
 .infoCardContainer--info-card-home {
