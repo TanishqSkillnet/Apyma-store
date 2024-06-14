@@ -1,10 +1,11 @@
+
+
 @media screen and (width > 1800px){
  .__group{
   width: 36.6rem !important;
   height: 2.4rem !important;
  }
 }
-
 @media screen and (width > 1260px) and (width < 1399px){
   .__group{
     height: 40px !important;

@@ -26,7 +26,7 @@
 }
 
 
-@media (width > 1400px) and ( width < 1790px) {
+@media (width > 1500px) and ( width < 1799px) {
   .autoCompleteOuterContainer{
     width: 17.5rem;
   }
@@ -47,7 +47,7 @@
   }
 
   .buscado_para_locate{
-    left: 2.5rem;
+    left: 1.2rem;
     position: relative;
   }
 

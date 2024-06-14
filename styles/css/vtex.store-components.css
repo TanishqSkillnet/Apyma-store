@@ -33,6 +33,7 @@
   background-color: #03054e;
   max-width: 1528px;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 .newsletter .container {
@@ -53,7 +54,7 @@
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
   background-color: transparent;
   color: #fff;
-  border: none;
+  border: 1px solid;
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
@@ -70,6 +71,7 @@
 
 .buttonContainer {
   padding-top: 0px;
+  right:37px !important;
 }
 
 .imageElement--storePrint {
