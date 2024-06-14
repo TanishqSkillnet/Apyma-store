@@ -48,18 +48,10 @@
 .productBrand--featuredProductsName{
   font-size: x-small;
   font-weight: 100;
-  /* letter-spacing: 2px; */
-}
-
-.buyButtonText--plpAddToCart{
-  font-size: xx-small;
-}
-
-.buyButtonContainer--plpAddToCart{
-  padding: 0px;
-}
-
-.description--plpDescription{
-  font-size: xx-small;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
