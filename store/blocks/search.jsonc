@@ -163,10 +163,7 @@
     }
   },
   "flex-layout.row#products": {
-    "children": ["search-content"],
-    "props":{
-      "colGap":10
-    }
+    "children": ["search-content"]
   },
   "search-content": {
     "blocks": ["gallery", "not-found"]
@@ -272,7 +269,7 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf#listLayout",
+      "ListSummary": "product-summary.shelf#newtest",
       "GridSummary": "product-summary.shelf#newtest"
     }
   },

@@ -163,4 +163,5 @@
 
 .galleryItem--gridSummaryLayout{
   max-width: 23% !important;
+  padding-inline: 7px;
 }

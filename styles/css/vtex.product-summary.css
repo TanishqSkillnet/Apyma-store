@@ -46,9 +46,9 @@
   text-align: start;
 }
 .productBrand--featuredProductsName{
-  font-size: small;
+  font-size: x-small;
   font-weight: 100;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
 }
 
 .buyButtonText--plpAddToCart{
