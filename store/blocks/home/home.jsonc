@@ -210,7 +210,7 @@
   "slider-layout#shelf": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 6,
         "tablet": 2,
         "phone": 2
       },
