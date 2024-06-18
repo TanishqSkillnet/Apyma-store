@@ -55,3 +55,7 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
 }
+
+.buyButton{
+  margin-top: -0.5rem;
+}

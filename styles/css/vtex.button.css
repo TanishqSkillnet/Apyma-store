@@ -6,3 +6,7 @@
 .b--action-primary{
 background:'black' !important;
 }
+
+.__label{
+  font-size: 0.7rem !important;
+}
