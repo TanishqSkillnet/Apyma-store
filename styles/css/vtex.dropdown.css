@@ -1,0 +1,4 @@
+.__container::before{
+    font-size: smaller !important;
+    margin-right: -0.1rem !important;
+}
