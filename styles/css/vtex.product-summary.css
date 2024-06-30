@@ -2,6 +2,10 @@
   border-radius: 50%;
 }
 
+.buyButtonText--plpAddToCar{
+  font-size: smaller !important;
+}
+
 .container :global(.vtex-modal-layout-0-x-triggerContainer) {
   opacity: 0;
   transition: opacity 200ms ease-in-out;
