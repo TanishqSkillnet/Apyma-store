@@ -13,8 +13,10 @@
 }
 
 .container {
-  max-width: 100% !important;
+  width: 100% !important;
+  max-width: none !important;
   padding: 0 !important;
+  margin: 0 !important;
 }
 
 .searchBarContainer{
@@ -38,7 +40,7 @@
 }
 
 .newsletter .container {
-  padding: 60px 10px;
+  padding: 60px 10px !important;
 }
 
 .label {
@@ -88,7 +90,7 @@
 }
 @media only screen and (min-width: 640px) {
   .newsletter .container {
-    padding: 140px;
+    padding: 140px !important;
   }
   .label {
     font-size: 40px;
